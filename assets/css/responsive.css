@@ -1,0 +1,401 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .gift-area {
+        z-index: 9;
+    }
+
+    .gift-card {
+        margin-bottom: -237px;
+    }
+
+    .hero-bg-2 {
+        margin-top: -10px;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .top_header_content h2 {
+        font-size: 28px;
+    }
+
+    .top_header {
+        background-position: 64%;
+    }
+
+    .menu-area nav ul li a {
+        margin-inline: 14px;
+        font-size: 14px;
+    }
+
+    .sec_title h2 {
+        font-size: 70px;
+    }
+
+    .Summer-content {
+        padding-left: 15px;
+    }
+
+    .Summer-wrp {
+        height: 214px;
+        bottom: 0;
+    }
+
+    .Summer-wrp div {
+        padding: 20px;
+    }
+
+    .Summer-content p {
+        font-size: 23px;
+    }
+
+    .Summer-area:after {
+        width: 50%;
+    }
+
+    .Summer_img {
+        display: none;
+    }
+
+    .gift-card {
+        margin-bottom: -111px;
+    }
+
+    .future-area:after {
+        left: 0;
+    }
+
+    .footer_nav ul {
+        gap: 20px 25px;
+    }
+
+}
+
+
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    :root {
+        --f24: 20px;
+        --f36: 28px;
+        --f96: 60px;
+    }
+
+    .top_header_content h2 {
+        font-size: 18px;
+    }
+
+    .top_header {
+        background-position: 64%;
+    }
+
+    .menu-area nav ul li a {
+        margin-inline: 14px;
+        font-size: 14px;
+    }
+
+    section.gift-area h2 {
+        max-width: 710px;
+    }
+
+    .Summer-content {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .Summer-wrp {
+        height: 214px;
+        bottom: 0;
+    }
+
+    .Summer-wrp div {
+        padding: 20px;
+    }
+
+    .Summer-content p {
+        font-size: 23px;
+    }
+
+    .Summer-area:after {
+        width: 100%;
+        height: 330px;
+    }
+
+    .Summer_img {
+        display: none;
+    }
+
+    .gift-card {
+        margin-bottom: -111px;
+    }
+
+    .future-area:after {
+        left: 0;
+        display: none;
+    }
+
+    .footer_nav ul {
+        gap: 16px 30px;
+        justify-content: center;
+    }
+
+    .top_header_content {
+        font-size: 14px;
+    }
+
+    .top_header_content i {
+        font-size: 30px;
+        margin-right: 15px;
+    }
+
+    .hero-bg-2 {
+        margin-top: -10px;
+    }
+
+    .sec_title h1 {
+        font-size: 100px;
+    }
+
+    .about_content a {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .about_content {
+        margin-top: 40px;
+    }
+
+    .Summer_title {
+        justify-content: center;
+        align-items: center;
+        height: 325px;
+    }
+
+    .Summer-area {
+        height: auto;
+    }
+
+    .Explore_blk {
+        height: 402px;
+    }
+
+    .future_img img {
+        position: unset;
+        width: 100%;
+    }
+
+    .footer_wrp {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .social-link ul {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .future-content {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    }
+
+    .future-area:before {
+        width: 100%;
+        left: 0;
+        top: -232px;
+    }
+
+}
+
+
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root {
+        --f24: 18px;
+        --f36: 28px;
+        --f96: 42px;
+    }
+
+    .top_header_content h2 {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    .top_header {
+        background-position: 38%;
+    }
+
+    .menu-area nav ul li a {
+        margin-inline: 14px;
+        font-size: 14px;
+    }
+
+    section.gift-area h2 {
+        max-width: 710px;
+    }
+
+    .Summer-content {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .Summer-wrp {
+        height: 214px;
+        bottom: 0;
+    }
+
+    .Summer-wrp div {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .Summer-area:after {
+        width: 100%;
+        height: 330px;
+    }
+
+    .Summer_img {
+        display: none;
+    }
+
+    .gift-card {
+        margin-bottom: -273px;
+        height: 351px;
+        object-fit: cover;
+    }
+
+    .future-area:after {
+        left: 0;
+        display: none;
+    }
+
+    .footer_nav ul {
+        gap: 11px 30px;
+        justify-content: center;
+    }
+
+    .top_header_content {
+        font-size: 14px;
+        line-height: 1;
+        flex-direction: column;
+        height: auto;
+        padding-top: 10px;
+    }
+
+    .top_header_content i {
+        font-size: 23px;
+        margin-right: 15px;
+    }
+
+    .hero-bg-2 {
+        margin-top: -10px;
+    }
+
+    .sec_title h1 {
+        font-size: 65px;
+        margin-top: 20px;
+    }
+
+    .about_content a {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .about_content {
+        margin-top: 40px;
+    }
+
+    .Summer_title {
+        justify-content: center;
+        align-items: center;
+        height: 325px;
+    }
+
+    .Summer-area {
+        height: auto;
+    }
+
+    .Explore_blk {
+        height: 402px;
+    }
+
+    .future_img img {
+        position: unset;
+        width: 100%;
+    }
+
+    .footer_wrp {
+        justify-content: center;
+        margin-bottom: 30px;
+        flex-direction: column;
+        gap: 20px 0;
+    }
+
+    .footer_wrp .logo {
+        text-align: center;
+    }
+
+    .social-link ul {
+        margin: auto;
+        margin-bottom: 15px;
+        max-width: 300px;
+    }
+
+    .future-content {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        height: 565px;
+        margin-bottom: -80px;
+    }
+
+    .future-area:before {
+        width: 100%;
+        left: 0;
+        top: -232px;
+    }
+
+    .top_header_content b {
+        line-height: 1;
+    }
+
+    .Bird-2 {
+        display: none;
+    }
+
+    .Bird-3 {
+        display: none;
+    }
+
+    img.border {
+        scale: .6;
+    }
+
+    .Summer-content_btm {
+        flex-direction: column;
+        max-width: 350px;
+        margin-inline: auto;
+    }
+
+    .hero_content img.border {
+        margin-left: -61px;
+    }
+
+    .future-content h2 {
+        font-size: 40px;
+    }
+
+
+}
+
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+}
